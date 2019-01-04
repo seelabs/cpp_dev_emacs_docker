@@ -1,7 +1,7 @@
 # This docker file must be built with the `scripts/build_docker.sh` script or it will fail.
 
 ################################################################################
-ARG CPP_DEV_VERSION=0.1
+ARG CPP_DEV_VERSION=latest
 FROM seelabs/cpp_dev:${CPP_DEV_VERSION}
 
 ################################################################################
